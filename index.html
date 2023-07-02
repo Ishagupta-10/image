@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>
+            test
+        </title>
+        <style>
+            #div01{
+                display:flex;
+                height:8vh;
+                justify-content: space-between;
+                background-color: black;
+                margin-top: auto;
+                margin-bottom: auto;
+                padding:2px;
+                padding-top: 5px;
+                padding-bottom: 10px;
+
+            }
+            #item01{
+                display:flex;
+                gap:5px;
+            }
+            body{
+                margin:0px;
+                padding:0px;
+            }
+            a:hover{
+                background-color:purple;
+                transition: .5s;
+                box-shadow: 5px 5px 5px black ;
+            }
+            #item02{
+                background-color: purple;
+                text-align: center;
+                padding:20px;
+            }
+            #div02{
+                display:grid;
+                height:400px;
+                width:1000px;
+                /* margin-left: auto;
+                margin-right: auto; */
+               
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto auto auto;
+                margin:5px;
+                padding:30px;
+                align-items: center;
+            }
+            #item03{
+                height:180px;
+                width:300px;
+               
+            }
+            .img{
+                height:180px;
+                width:300px;
+            }
+            .social{
+                height:50px;
+                width:50px;
+            }
+            #div05{
+                display:flex;
+            }
+            #div04{
+                display:flex;
+                justify-content: space-between;
+                padding:5px;
+            }
+            img:hover{
+                box-shadow: 2px 2px 2px;
+                border:2px solid black;
+                transition: .5s;
+            }
+            #items{
+                gap:10px;
+                padding: 0.5rem;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div01">
+            <div id="item01">
+                <img src="codepen.png" style="height: 58px;width:50px">
+                <h1 style="color:white;">IMAGE</h1>
+            </div>
+            <div >
+                <a href="" style="color: white;text-decoration: none;"id="items">HOME</a>
+                <a href="" style="color: white;text-decoration: none;" id="items">ABOUT</a>
+                <a href="" style="color: white;text-decoration: none;"id="items">CONTACT US</a>
+            </div>
+            <div>
+                <a href="" style="text-decoration: none;border:2px solid white;padding: auto;color:white;padding: 0.1rem;border-radius:5px 5px 5px;">Book Trial</a>
+            </div>
+        </div>
+        
+        <div>
+            <h3 id="item02">this is kind of an image gallery</h3>
+        </div>
+        <center>
+        <div id="div02">
+            <div id="item03">
+                <img src="image1.jpg" class="img">
+            </div>
+            <div id="item03">
+                <img src="image2.jpg" class="img">
+            </div>
+            <div id="item03">
+                <img src="image3.jpg" class="img">
+            </div>
+            <div id="item03">
+                <img src="image4.jpg" class="img">
+            </div>
+            <div id="item03">
+                <img src="image5.jpg" class="img">
+            </div>
+            <div id="item03">
+                <img src="image6.jpg" class="img">
+            </div>
+        </div>
+        </center>
+        <div style="background-color: black;color: white;"id="div04">
+             <div >
+                <h2>PHOTOGRAPHY</h2>
+                <H3>this is some random dummy text</H3>
+                <Div id="div05">
+                    <img src="facebook-color.svg" class="social">
+                    <img src="instagram-1.svg" class="social">
+                    <img src="tele.svg" class="social">
+                    <img src="whats.svg" class="social">
+                </Div>
+            </div>
+                <div>
+                    <H2>CONTACT INFO</H2>
+                    <H3>mobile no.9528XXXXXX</H3>
+                    <H3>Email:sia.shakya@gla.ac.in</H3>
+                </div>
+                <div>
+                    <h2 style="padding-right: 5px;">NEWSLETTER</h2>
+                    <H3>Name:</H3>
+                </div>
+            
+        </div>
+    </body>
+</html>
